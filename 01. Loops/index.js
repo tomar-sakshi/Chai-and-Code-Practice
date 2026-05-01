@@ -39,3 +39,11 @@
 //   }
 //   console.log(`Value of index is ${index}`);
 // }
+
+// for (let index = 2; index <= 20; index++) {
+//   if (index == 6) {
+//     console.log(`Detected 6`);
+//     break;
+//   }
+//   console.log(`Value of index is ${index}`);
+// }
