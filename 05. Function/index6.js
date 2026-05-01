@@ -74,7 +74,7 @@
 //     return "Negative";
 //   } else {
 //     return "zero";
-//   }
+//   } 
 // }
 // console.log(checkNumber(8));
 // console.log(checkNumber(-7));
