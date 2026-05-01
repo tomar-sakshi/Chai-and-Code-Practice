@@ -16,14 +16,14 @@
 //    i= i+4;
 // }
 
-// let arr = ["Superman", "Batman", "Spiderman"]
+let arr = ["Superman", "Batman", "Spiderman"]
 
-// let i = 0
+let i = 0
 
-// while (i < arr.length){
-//     console.log(arr[i]);
-//     i = i+1;
-// }
+while (i < arr.length){
+    console.log(arr[i]);
+    i = i+1;
+}
 
 // Do While Loop
 
