@@ -73,16 +73,38 @@
 // const numbers = [1, 3, 5, 6, 8, 9, 2, 6];
 // console.log(getEvenNumbers(numbers));
 
- //Q7 -Create a function that returns all odd numbers from an array.
- //Ans
- function getOddNumbers(arr) {
-   let oddNumbers = [];
-   for (let num of arr) {
-     if (num % 3 === 0) {
-       oddNumbers.push(num);
-     }
-   }
-   return oddNumbers;
- }
- const numbers = [1, 3, 5, 6, 8, 9, 2, 6];
- console.log(getoddNumbers(numbers));
+//Q7 -Create a function that returns all odd numbers from an array.
+// Ans
+// function getOddNumbers(arr) {
+//   let oddNumbers = [];
+//   for (let num of arr) {
+//     if (num % 2 !== 0) {
+//       oddNumbers.push(num);
+//     }
+//   }
+//   return oddNumbers;
+// }
+// const numbers = [1, 3, 5, 6, 8, 9, 2, 6];
+// console.log(getOddNumbers(numbers));
+
+//Q8 -Reverse an array without using .reverse().
+
+// Q9 -Check if a given value exists in an array.
+// Ans-
+// const arr = [10, 20, 30, 40, 50, 70];
+// console.log(arr.includes(35));// False
+
+//Q 10- Count how many times a specific element appears in an array.
+// Ans
+// function countOccurrence(arr, target) {
+//   let count = 0;
+//   for (let item of arr) {
+//     if (item === target) {
+//       count++;
+//     }
+//   }
+//   return count;
+// }
+// const numbers = [1, 4, 6, 5, 2, 6, 9, 6];
+// console.log(countOccurrence(numbers, 6));//3
+
