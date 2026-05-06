@@ -64,7 +64,7 @@
 
 // reduce method
 
-const myNums = [1, 2, 3, 4, 5];
+// const myNums = [1, 2, 3, 4, 5];
 
 // const myTotal = myNums.reduce(function (acc, currval) {
 //   console.log(`acc: ${acc} and currval: ${currval}`);
@@ -75,30 +75,98 @@ const myNums = [1, 2, 3, 4, 5];
 
 // console.log(myTotal);
 
-const shoppingCart = [
-  {
-    itemName: "html",
-    price: 1000,
-  },
-  {
-    itemName: "css",
-    price: 2000,
-  },
-  {
-    itemName: "javascript",
-    price: 4000,
-  },
-  {
-    itemName: "react",
-    price: 6000,
-  },
-  {
-    itemName: "node js",
-    price: 8000,
-  },
+// const shoppingCart = [
+//   {
+//     itemName: "html",
+//     price: 1000,
+//   },
+//   {
+//     itemName: "css",
+//     price: 2000,
+//   },
+//   {
+//     itemName: "javascript",
+//     price: 4000,
+//   },
+//   {
+//     itemName: "react",
+//     price: 6000,
+//   },
+//   {
+//     itemName: "node js",
+//     price: 8000,
+//   },
+// ];
+
+// const price = shoppingCart.reduce((acc, item) => acc + item.price, 0);
+// console.log(price);
+
+//*********************Map Filter Reduce *******************************//
+
+// const arr = [1, 2, 3, 4, 5, 6];
+
+// function double(x) {
+//   return x * 2;
+// }
+// const output = arr.map(double);
+// console.log(output);
+
+// function triple(x) {
+//   return x * 3;
+// }
+// const output = arr.map(triple);
+// console.log(output);
+
+// const output = arr.map((x) => x.toString(2));
+// console.log(output);//
+
+// const arr = [5, 1, 4, 7, 2, 6];
+
+// const output = arr.filter((elm) => elm > 3);
+// console.log(output);
+
+// const arr = [1, 3, 6, 9, 5, 4];
+// sum and max
+
+// function findSum(arr) {
+//   let sum = 0;
+//   for (let i = 0; i < arr.length; i++) {
+//     sum = sum + arr[i];
+//   }
+//   return sum;
+// }
+// console.log(findSum(arr));
+
+// const output = arr.reduce(function (acc, curr) {
+//   acc = acc + curr;
+//   return acc;
+// }, 0);
+// console.log(output);
+
+// const arr = [1, 3, 6, 9, 5, 4];
+// const output = arr.reduce(function (max, curr) {
+//   if (curr > max) {
+//     max = curr;
+//   }
+//   return max;
+// }, 0);
+// console.log(output);
+
+const users = [
+  { firstName: "sakshi", lastName: "tomar", age: 28 },
+  { firstName: "tanu", lastName: "garg", age: 28 },
+  { firstName: "Kajal", lastName: "sirohi", age: 26 },
 ];
 
-const price = shoppingCart.reduce((acc, item) => acc + item.price, 0);
-console.log(price);
+// const output = users.map((elm) => elm.firstName + " " + elm.lastName);
+// console.log(output);
 
-
+// const output = users.reduce(function (acc, curr) {
+//   if (acc[curr.age]) {
+//     acc[curr.age] = ++acc[curr.age];
+//   } else {
+//     acc[curr.age] = 1;
+//   }
+//   return acc;
+// }, {});
+// console.log(output);
